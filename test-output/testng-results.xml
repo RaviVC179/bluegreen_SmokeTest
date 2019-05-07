@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31455" started-at="2019-05-07T11:59:53Z" finished-at="2019-05-07T12:00:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31455" started-at="2019-05-07T11:59:53Z" finished-at="2019-05-07T12:00:24Z">
+      <class name="com.bg.test.BGO_SmokeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="beforeSuite" is-config="true" duration-ms="4391" started-at="2019-05-07T11:59:48Z" finished-at="2019-05-07T11:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-05-07T11:59:53Z" finished-at="2019-05-07T11:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="reportSettings()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="reportSettings" is-config="true" duration-ms="130" started-at="2019-05-07T11:59:53Z" finished-at="2019-05-07T11:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSettings -->
+        <test-method status="PASS" signature="Launch_BGO()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="Launch_BGO" duration-ms="31277" started-at="2019-05-07T11:59:53Z" finished-at="2019-05-07T12:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_BGO -->
+        <test-method status="PASS" signature="reportTearDown(org.testng.ITestResult)[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="reportTearDown" is-config="true" duration-ms="3" started-at="2019-05-07T12:00:24Z" finished-at="2019-05-07T12:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch_BGO status=SUCCESS method=BGO_SmokeTest.Launch_BGO()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bg.test.BGO_SmokeTest@3abbfa04]" name="afterClass" is-config="true" duration-ms="11" started-at="2019-05-07T12:00:24Z" finished-at="2019-05-07T12:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bg.test.BGO_SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

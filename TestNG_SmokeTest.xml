@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "BG_Automation">
+   
+	<test name="VSSA_StageSmokeTest">
+	<parameter name="Environment" value="stage" />
+		<classes >
+				<class name = "com.bg.test.BGO_SmokeTest"/>
+		</classes>
+	</test>
+	
+</suite>
