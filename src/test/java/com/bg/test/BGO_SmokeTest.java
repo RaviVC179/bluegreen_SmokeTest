@@ -85,7 +85,7 @@ public class BGO_SmokeTest extends GenericUtils {
 		
 		//launchApp(CONFIG.getProperty("BG_URL"), "Stage");
 		driver.navigate().to("https://www.bluegreenvacations.com/");
-		System.out.println("BGO Application launched");
+		System.out.println("BGO Application launched successfully");
 	}
 
 }
